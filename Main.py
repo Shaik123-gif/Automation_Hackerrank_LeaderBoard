@@ -45,7 +45,7 @@ df1 = df1.append(df2, ignore_index=True)
 driver3 = webdriver.Chrome()
 name3 = []
 score3 = []
-driver3.get('https://www.hackerrank.com/contests/scanit-weekly-contest-23-aug-2020/leaderboard/3') #Link of the Particular Site (LeaderBoard 3)
+driver3.get('https://www.hackerrank.com/contests/scanit-weekly-contest-23-aug-2020/leaderboard/3') #Link of the Particular Site (LeaderBoard 3) which is in the Link
 content3 =driver3.page_source
 soup = BeautifulSoup(content3,features="html.parser")
 printName(name3)
