@@ -1,7 +1,9 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
-import pandas as pd  #For File Handling
-
+import pandas as pd 
+import numpy as np
+import sys
+import matplotlib.pyplot as plt
 #For inserting the LeaderBoard Names in the List
 def printName(name):
     i = 0
